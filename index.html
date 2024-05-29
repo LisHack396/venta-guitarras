@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Store</title>
+    <link rel="shortcut icon" href="img/guitar-svgrepo-com.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img id="icono" src="img/guitar-svgrepo-com.svg" alt="guitar" loading="lazy">
+            <div id="title">
+                <p class="title-principal">Guitar Store</p>
+                <p class="title-subtitle">Consigue tu guitarra de ensueño</p>
+            </div>
+            <div id="enlaces">
+                <a href="#home">Home</a>
+                <a href="#acerca-de">Acerca De</a>
+                <a href="#guitarras">Guitarras</a>
+                <a href="#galeria">Galería</a>
+                <a href="#contacto">Contáctenos</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="seccion">
+            <div class="title-home">
+                <h1>Guitar Hero</h1>
+                <h2>Bienvenido. Esperamos que nuestros productos sean de tu agrado y encuentres lo que buscas.</h2>
+            </div>
+        </section>
+        <section id="acerca-de" class="seccion">
+            <h3 class="titulo-seccion">Acerca de</h3>
+            <div id="container-acerca-de">
+                <p id="contenido-acerca-de" class="contenido">
+                    Esta es una tienda virtual especializada en la venta de guitarras de todo tipo. El objetivo es que
+                    nuestros clientes puedan encontrar el instrumento de su agrado tanto para amateurs como para
+                    guitarristas experimentados y expander la música por todo el mundo.
+                </p>
+            </div>
+        </section>
+        <section id="guitarras" seccion>
+            <h3 class="titulo-seccion">Guitarras en venta</h3>
+            <table border="1" class="contenido">
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td>Descripción</td>
+                        <td>Precio</td>
+                        <td>Acciones</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="imagen-contenedor">
+                            <img class="imagen-tabla" src="img/guitarra-clasica.jpg" alt="guitarra-clasica"
+                                loading="lazy">
+                            <p>Guitarra clásica</p>
+                        </td>
+                        <td>
+                            <ul class="caracteristicas">
+                                <li>Nueva</li>
+                                <li>Madera de caoba</li>
+                                <li>Cuerdas adicionales incluidas</li>
+                            </ul>
+                        </td>
+                        <td>$150</td>
+                        <td><button>Comprar</button></td>
+                    </tr>
+                    <tr>
+                        <td class="imagen-contenedor">
+                            <img class="imagen-tabla" src="img/guitarra-antigua.jpg" alt="guitarra-antigua"
+                                loading="lazy">
+                            <p>Guitarra antigua</p>
+                        </td>
+                        <td>
+                            <ul class="caracteristicas">
+                                <li>Nueva</li>
+                                <li>Madera de caoba</li>
+                                <li>Cuerdas adicionales incluidas</li>
+                            </ul>
+                        </td>
+                        <td>$150</td>
+                        <td><button>Comprar</button></td>
+                    </tr>
+                    <tr>
+                        <td class="imagen-contenedor">
+                            <img class="imagen-tabla" src="img/guitarra-acustica.jpg" alt="guitarra-acustica"
+                                loading="lazy">
+                            <p>Guitarra acústica</p>
+                        </td>
+                        <td>
+                            <ul class="caracteristicas">
+                                <li>Nueva</li>
+                                <li>Madera de caoba</li>
+                                <li>Cuerdas adicionales incluidas</li>
+                            </ul>
+                        </td>
+                        <td>$150</td>
+                        <td><button>Comprar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="galería" class="seccion">
+            <h3 class="titulo-seccion">Galería</h3>
+            <div class="contenido">
+                <img class="imagen-galeria" src="img/hombre-tocando-guitarra.jpg" alt="hombre-tocando-guitarra"
+                    loading="lazy">
+                <img class="imagen-galeria" src="img/mujer-tocando-guitarra.jpg" alt="mujer-tocando-guitarra"
+                    loading="lazy">
+                <img class="imagen-galeria" src="img/hombre-tocando-guitarra-2.jpg" alt="hombre-tocando-guitarra-2"
+                    loading="lazy">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="contacto">
+            <div>
+                <form id="formulario">
+                    <h3>Formulario de contacto</h3>
+                    <div>
+                        <label for="username" class="form-label">Nombre de usuario</label>
+                    </div>
+                    <div>
+                        <input type="text" id="username" class="form-control" maxlength="50" required>
+                    </div>
+                    <div>
+                        <label for="email" class="form-label">Correo electrónico</label>
+                    </div>
+                    <div>
+                        <input type="email" id="email" class="form-control" maxlength="30" required>
+                    </div>
+                    <button type="button" class="form-control">Enviar</button>
+                </form>
+            </div>
+            <div id="numero">
+                <h3>Contactenos a través de</h3>
+                <p>Telefono: <strong>+45 671209</strong></p>
+                <p>Email: <strong>guitarstore@gmail.com</strong></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
